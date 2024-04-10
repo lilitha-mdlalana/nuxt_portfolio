@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&family=DM+Serif+Display:ital@0;1&display=swap');
+
+
 .btn {
   border-width: 2px;
 }
@@ -17,10 +20,11 @@ img,
   overflow: hidden;
 }
 body {
-  font-family: Inter Tight;
+  font-family: DM Sans;
+  color: rgb(43, 43, 43);
 }
 .display-1 {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 5rem;
   line-height: 1;
 }
@@ -28,7 +32,7 @@ body {
   font-size: 6.25rem;
 }
 .display-2 {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 4rem;
   line-height: 1;
 }
@@ -36,7 +40,7 @@ body {
   font-size: 5rem;
 }
 .display-4 {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 1.4rem;
   line-height: 1.5;
 }
@@ -44,7 +48,7 @@ body {
   font-size: 1.75rem;
 }
 .display-5 {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 2rem;
   line-height: 1.5;
 }
@@ -52,7 +56,7 @@ body {
   font-size: 2.5rem;
 }
 .display-7 {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 1.4rem;
   line-height: 1.3;
 }
@@ -640,7 +644,7 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 1.4rem;
   line-height: 1.3;
   font-weight: 400;
@@ -655,7 +659,7 @@ a:hover {
   border-color: #2b7a69 !important;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 1.4rem;
   line-height: 1.3;
   font-weight: 400;
@@ -3978,5 +3982,37 @@ a {
 @media (max-width: 991px) {
   .cid-u8xIRDDMjF .copyright {
     text-align: center;
+  }
+}
+/* */
+
+/* pre {
+  margin: 0;
+  font: 1rem/1.5 'Roboto Mono', monospace;
+} */
+
+code {
+  -webkit-user-select: all;
+  user-select: all;
+  display: block;
+  padding: 20px;
+  border: 2px dashed #c9baa7;
+  color: #31808c;
+  /* background-color: #f5f4ef; */
+  text-align: left;
+  font-family: inherit;
+  overflow: auto;
+}
+
+code:focus {
+  border: 2px dashed #31808c;
+  outline: none;
+  animation: select 100ms step-end forwards;
+}
+
+@keyframes select {
+  to {
+    -webkit-user-select: text;
+    user-select: text;
   }
 }
