@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
 
 
 .btn {
@@ -21,7 +23,6 @@ img,
 }
 body {
   font-family: DM Sans;
-  color: rgb(43, 43, 43);
 }
 .display-1 {
   font-family: 'DM Sans', sans-serif;
@@ -1376,7 +1377,7 @@ a {
 }
 .cid-u89VvpUPLG .mbr-text,
 .cid-u89VvpUPLG .mbr-section-btn {
-  color: #000000;
+  color: #2b2b2b;
 }
 .cid-u89XTo4Ffx {
   padding-top: 5rem;
@@ -3984,21 +3985,21 @@ a {
     text-align: center;
   }
 }
-/* */
+/*blog */
 
-/* pre {
+pre {
   margin: 0;
-  font: 1rem/1.5 'Roboto Mono', monospace;
-} */
+  font: 1rem/1.5 'Fira Code', monospace;
+}
 
 code {
   -webkit-user-select: all;
   user-select: all;
   display: block;
   padding: 20px;
-  border: 2px dashed #c9baa7;
-  color: #31808c;
-  /* background-color: #f5f4ef; */
+  /* border: 2px dashed #c9baa7; */
+  color: white;
+  background-color: #282D3D;
   text-align: left;
   font-family: inherit;
   overflow: auto;

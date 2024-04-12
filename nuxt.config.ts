@@ -14,5 +14,13 @@ export default defineNuxtConfig({
   modules:[
     '@nuxt/content',
     'nuxt-aos'
-  ]
+  ],
+  content: {
+    highlight: {
+        theme: {
+            default: "one-dark-pro",
+            dark: "github-dark",
+        },
+    },
+},
 });

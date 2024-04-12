@@ -8,10 +8,10 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="item features-image col-12 col-md-6 col-lg-4 active">
+  <div class="item features-image col-12 col-md-6 col-lg-4">
     <div class="item-wrapper">
       <div class="item-img mb-3">
-        <img :src="articleImageUrl" title="" />
+        <img :src="articleImageUrl"/>
       </div>
       <div class="item-content align-left">
         <h5 class="item-title mbr-fonts-style mt-0 mb-3 display-7">

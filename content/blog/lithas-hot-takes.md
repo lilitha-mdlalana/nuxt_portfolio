@@ -8,6 +8,10 @@ slug: 'blog/lithas-hot-takes'
 author: 'Lilitha Mdlalana'
 ---
 
+
+::image
+![my image](https://placehold.co/600x200)
+::
 ::the-title
 **Why coding is scary and how to learn it better**
 ::
@@ -34,5 +38,9 @@ One of the biggest challenges for newcomers to coding is the sheer volume of inf
 
 ::code
 ```javascript
-console.log('Hello world')
-```::
+function wall(x, y, width, height) {
+    return Matter.Bodies.rectangle(x, y, width, height, {
+        chamfer: { radius: 10 }
+});
+``` 
+::

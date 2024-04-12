@@ -1,5 +1,5 @@
 <template>
-    <section data-bs-version="5.1" class="menu menu5 cid-u89V9q5J10" once="menu" id="menu05-21">
+    <section data-bs-version="5.1" class="menu menu5 cid-u89V9q5J10 mb-5" once="menu" id="menu05-21">
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
       <div class="container">
         <div class="navbar-brand">
