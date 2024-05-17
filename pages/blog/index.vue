@@ -4,6 +4,37 @@ const query: QueryBuilderParams = {
   path: "/blog",
   sort: [{ date: -1 }],
 };
+useHead({
+  title: "Lilitha Mdlalana - Blog",
+  meta: [
+    {
+      hid: "description",
+      name: "description",
+      content: "Welcome to my tech blog where I share insights, tutorials, and updates on software development. Explore articles on web development, programming languages, frameworks, and best practices. Join me on my journey as a student programmer and stay updated with the latest trends and tips in the tech world",
+    },
+  ],
+  link: [
+    {
+      rel: "canonical",
+      href: "https://lilitha-mdlalana.netlify.app/blog/",
+    },
+  ],
+  noscript: [
+    {
+      innerHTML: `
+        <div class="alert alert-warning" role="alert">
+          <strong>Warning!</strong>
+          <br />
+          <br />
+          <p>
+            <strong>AOS</strong> requires JavaScript to be enabled in your
+            browser.
+          </p>
+        </div>
+      `,
+    },
+  ],
+})
 </script>
 
 <template>

@@ -3,7 +3,7 @@ title: "My hot takes"
 date: 2024-04-10
 draft: false
 tag: 'Programming'
-thumbnail : '/images/shop2.jpg'
+thumbnail : '/images/shop1.jpg'
 slug: 'blog/lithas-hot-takes'
 author: 'Lilitha Mdlalana'
 ---

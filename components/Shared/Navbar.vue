@@ -5,7 +5,7 @@
         <div class="navbar-brand">
           <span class="navbar-logo">
             <NuxtLink to="/">
-              <img src="assets/images/untitled-design-137x137.png" alt="Lightning" style="height: 4.3rem;">
+              <img src="assets/images/logo.png" alt="logo" style="height: 4.3rem;">
             </NuxtLink>
           </span>
           <span class="navbar-caption-wrap"><NuxtLink class="navbar-caption text-black text-primary display-4"
@@ -31,7 +31,7 @@
                 aria-expanded="false">Projects</NuxtLink>
             </li>
             <li class="nav-item">
-              <NuxtLink class="nav-link link text-black text-primary display-4" to="/#projects">Contact</NuxtLink>
+              <NuxtLink class="nav-link link text-black text-primary display-4" to="/#contact">Contact</NuxtLink>
             </li>
             <li class="nav-item"><NuxtLink class="nav-link link text-black text-primary display-4" to="/blog">Blog</NuxtLink>
             </li>
