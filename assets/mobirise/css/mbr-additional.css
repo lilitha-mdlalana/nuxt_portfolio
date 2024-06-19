@@ -4003,6 +4003,7 @@ code {
   text-align: left;
   font-family: inherit;
   overflow: auto;
+  margin-bottom: 20px;
 }
 
 code:focus {
